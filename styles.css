@@ -67,17 +67,8 @@ body {
 .header-img {
 }
 .header-nav {
-  margin-right: auto;
-}
-.nav-list {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-}
-.nav-item:not(:last-child) {
-  margin-right: 40px;
+  margin-right: auto;
 }
 .nav-link {
   color: #686868;
@@ -87,6 +78,9 @@ body {
 }
 .nav-link:hover {
   color: #151515;
+}
+.nav-link:not(:last-child) {
+  margin-right: 40px;
 }
 .header-endlink {
   color: #686868;

@@ -11,63 +11,97 @@
   <!-- Header section started -->
   <header class="header">
     <div class="container">
-      <div class="header-wrapper">
-        <a href="" class="header-link">
-          <img src="./images/snap.svg" width="84" height="27" alt="snap's logo" class="header-img">
+      <div class="header__wrapper">
+        <a href="" class="header__link">
+          <img src="./images/snap.svg" width="84" height="27" alt="snap's logo" class="header__img">
         </a>
-        <nav class="header-nav">
-          <a href="#" class="nav-link">Features</a>
-          <a href="#" class="nav-link">Company</a>
-          <a href="#" class="nav-link">Careers</a>
-          <a href="#" class="nav-link">About</a>
-        </nav>
-        <a href="#" class="header-endlink">Login</a>
-        <a href="#" class="header-endlink endlink-active">Register</a>
-      </div>
-    </div>
-  </header>
-  <!-- Header section finished -->
-  <main class="site__main">
-    <!-- Main section started -->
-    <!-- hero section started -->
-    <section>
-      <div class="hero">
-        <div class="container">
-          <div class="hero-wrapper">
-            <h1 class="hero-title">Make <br>
-              remote work</h1>
-              <div class="hero-wrap__text">
-                <p class="hero-text">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-              </div>
-              <a href="#" class="hero-linktop">Learn more</a>
-              <ul class="hero-list">
-                <li class="hero-item">
-                  <a href="https://www.databiz.fr/" target="_blank" class="hero-link">
-                    <img src="./images/databiz.svg"width="113" height="20" alt="sayt's logo" class="hero-image">
-                  </a>
+        <nav class="header__nav">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Features</a>
+              <ul class="items-list">
+                <li class="items-list__item">
+                  <a href="#" class="item-list-link">Todo List</a>
                 </li>
-                <li class="hero-item">
-                  <a href="https://www.databiz.fr/" target="_blank" class="hero-link">
-                    <img src="./images/audio.svg"width="73" height="36" alt="sayt's logo" class="hero-image">
-                  </a>
+                <li class="items-list__item">
+                  <a href="#" class="item-list-link">Calendar</a>
                 </li>
-                <li class="hero-item">
-                  <a href="https://www.databiz.fr/" target="_blank" class="hero-link">
-                    <img src="./images/meet.svg"width="89" height="20" alt="sayt's logo" class="hero-image">
-                  </a>
+                <li class="items-list__item">
+                  <a href="#" class="item-list-link">Reminders</a>
                 </li>
-                <li class="hero-item">
-                  <a href="https://www.databiz.fr/" target="_blank" class="hero-link">
-                    <img src="./images/maker.svg"width="82" height="24" alt="sayt's logo" class="hero-image">
-                  </a>
+                <li class="items-list__item">
+                  <a href="#" class="item-list-link">Planning</a>
                 </li>
               </ul>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Company</a>
+              <ul class="items-list items-list--active">
+                <li class="items-list__active">
+                  <a href="#" class="item-list-link">History</a>
+                </li>
+                <li class="items-list__active">
+                  <a href="#" class="item-list-link">Our Team</a>
+                </li>
+                <li class="items-list__active">
+                  <a href="#" class="item-list-link">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Careers</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">About</a></li>
+            </ul>
+          </nav>
+          <a href="" class="header__endlink">Login</a>
+          <a href="" class="header__endlink header__active">Register</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header section finished -->
+    <main class="site-main">
+      <!-- Main section started -->
+      <!-- hero section started -->
+      <section>
+        <div class="hero">
+          <div class="container">
+            <div class="hero__wrapper">
+              <h1 class="hero__title">Make <br>
+                remote work</h1>
+                <div class="hero-text">
+                  <p class="hero__text">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+                </div>
+                <a href="#" class="hero__link">Learn more</a>
+                <ul class="hero-list">
+                  <li class="hero-list__item">
+                    <a href="https://www.databiz.fr/" target="_blank" class="hero-link">
+                      <img src="./images/databiz.svg"width="113" height="20" alt="sayt's logo" class="hero-list__image">
+                    </a>
+                  </li>
+                  <li class="hero-list__item">
+                    <a href="https://www.databiz.fr/" target="_blank" class="hero-link">
+                      <img src="./images/audio.svg"width="73" height="36" alt="sayt's logo" class="hero-list__image">
+                    </a>
+                  </li>
+                  <li class="hero-list__item">
+                    <a href="https://www.databiz.fr/" target="_blank" class="hero-link">
+                      <img src="./images/meet.svg"width="89" height="20" alt="sayt's logo" class="hero-list__image">
+                    </a>
+                  </li>
+                  <li class="hero-list__item">
+                    <a href="https://www.databiz.fr/" target="_blank" class="hero-link">
+                      <img src="./images/maker.svg"width="82" height="24" alt="sayt's logo" class="hero-list__image">
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- hero section finished -->
-    </main>
-    <!-- Main section finished -->
-  </body>
-  </html>
+        </section>
+        <!-- hero section finished -->
+      </main>
+      <!-- Main section finished -->
+    </body>
+    </html>
